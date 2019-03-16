@@ -1,0 +1,23 @@
+{
+  "name": "ionic-app-cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimirpavk/ionic-app-cdn.git"
+  },
+  "author": "Vladimir Pavkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladimirpavk/ionic-app-cdn/issues"
+  },
+  "homepage": "https://github.com/vladimirpavk/ionic-app-cdn#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
