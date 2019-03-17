@@ -52,11 +52,18 @@
                     </ion-col>
                 </ion-row>
                 <ion-row>
-                    <ion-list id="expensesList"></ion-list>
+                    <ion-col size="6" offset="3">
+                        <ion-list id="expensesList"></ion-list>
+                    </ion-col>                                        
+                </ion-row>
+                <ion-row>
+                    <ion-col size="6" offset="3">
+                        <ion-item color="primary">Total Expenses - $<span id="totalExpenses"></span></ion-item>
+                    </ion-col>
                 </ion-row>
             </ion-grid>           
         </ion-content>
-      
+        <ion-alert-controller id="alertCtrl"></ion-alert-controller>
         <ion-footer>
           <ion-toolbar>
             <ion-title>Footer</ion-title>
